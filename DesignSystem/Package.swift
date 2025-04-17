@@ -20,7 +20,6 @@ let package = Package(
         .target(
             name: "DesignSystem",
             dependencies: [],
-            path: "Sources/DesignSystem",
             resources: [
                 .process("Resources")
             ]
