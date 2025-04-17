@@ -75,11 +75,11 @@ public struct ColorAsset {
     }
     
     public var color: Color {
-        Color(assetName, bundle: .main)
+        Color(assetName, bundle: .module)
     }
     
     public var uiColor: UIColor {
-        UIColor(named: assetName, in: .main, compatibleWith: nil) ?? .black
+        UIColor(named: assetName, in: .module, compatibleWith: nil) ?? .black
     }
 }
 
