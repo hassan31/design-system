@@ -19,7 +19,6 @@ let package = Package(
     targets: [
         .target(
             name: "DesignSystem",
-            dependencies: [],
             resources: [
                 .process("Resources")
             ]
